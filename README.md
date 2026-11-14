@@ -61,9 +61,10 @@ are deliberately not exposed.
 | Model        | Firmware      | Registration | Buttons | Status |
 | ------------ | ------------- | ------------ | ------- | ------ |
 | MFC-L2700DW  | Y2309112149   | SNMP, works  | work    | works  |
+| MFC-L2710DW  | ZF            | SNMP, works  | work    | works; several names (`SKEY_NAMES`) from one host are all listed |
 
 Other Brother devices that register over SNMP very likely work the same way,
-but only this one has been seen on the wire. Newer firmware registers over
+but only these have been seen on the wire. Newer firmware registers over
 HTTP instead, which openskey does not implement yet (#17). If you have another
 model, please open a
 [model report](https://github.com/PhilippMundhenk/openskey/issues/new?template=model-report.yml)
